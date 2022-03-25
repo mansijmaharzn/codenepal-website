@@ -177,7 +177,7 @@
         right: 5%;
         transform: translate(5%, 20%);
     }
-    
+
     .navbar-toggle .bar {
         display: block;
         cursor: pointer;
@@ -582,4 +582,154 @@
     .join-content p {
         margin-top: 2rem;
     }
+}
+
+
+/* Programs Section */
+.programs {
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.programs h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+.programs-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.programs-card {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: 0.3s ease-in;
+}
+
+.programs-card:nth-child(2) {
+    background: #1fa2ff;
+    background: -webkit-linear-gradient(
+      to right,
+      #a6ffcb,
+      #12d8fa,
+      #1fa2ff
+    );
+    background: linear-gradient(
+      to right,
+      #a6ffcb,
+      #12d8fa,
+      #1fa2ff
+    );
+}
+
+.programs-card:nth-child(3) {
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+}
+
+.programs-card h2 {
+    text-align: center;
+}
+
+.programs-card p {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+/* Commented out for now */
+/* .programs-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.programs-card button {
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #131313;
+    font-size: 1rem;
+}
+
+.programs-card button:hover {
+    cursor: pointer;
+} */
+
+.programs-card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 1300px) {
+    .programs-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .programs-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Footer CSS */
+.footer-container {
+    background-color: #131313;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-rights {
+    background: #ee0979;
+    background: -webkit-linear-gradient(
+        to right,
+        #ff6a00,
+        #ee0979
+    );
+    background: linear-gradient(
+        to right,
+        #ff6a00,
+        #ee0979
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
