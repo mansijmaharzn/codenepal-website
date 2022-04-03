@@ -151,7 +151,7 @@
         width: 100%;
     }
 
-    .navbar-links{
+    .navbar-links {
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -182,7 +182,7 @@
         display: block;
         cursor: pointer;
     }
-    
+
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -224,16 +224,12 @@
 
 .hero-heading span {
     background: #ee0979;
-    background: -webkit-linear-gradient(
-        to right,
-        #ff6a00,
-        #ee0979
-    );
-    background: linear-gradient(
-        to right,
-        #ff6a00,
-        #ee0979
-    );
+    background: -webkit-linear-gradient(to right,
+            #ff6a00,
+            #ee0979);
+    background: linear-gradient(to right,
+            #ff6a00,
+            #ee0979);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -244,16 +240,12 @@
 .hero-description {
     font-size: 60px;
     background: #da22ff;
-    background: -webkit-linear-gradient(
-        to right,
-        #9114ff,
-        #da22ff
-    );
-    background: linear-gradient(
-        to right,
-        #8f0eff,
-        #da22ff
-    );
+    background: -webkit-linear-gradient(to right,
+            #9114ff,
+            #da22ff);
+    background: linear-gradient(to right,
+            #8f0eff,
+            #da22ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -317,16 +309,12 @@
 .main-content h2 {
     font-size: 4rem;
     background: #ff1877;
-    background: -webkit-linear-gradient(
-        to right,
-        #9114ff,
-        #da22ff
-    );
-    background: linear-gradient(
-        to right,
-        #8f0eff,
-        #da22ff
-    );
+    background: -webkit-linear-gradient(to right,
+            #9114ff,
+            #da22ff);
+    background: linear-gradient(to right,
+            #8f0eff,
+            #da22ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -395,11 +383,9 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(
-        to right,
-        #00dbde 0%,
-        #fc00ff 100%
-    );
+    background-image: linear-gradient(to right,
+            #00dbde 0%,
+            #fc00ff 100%);
 }
 
 .logo {
@@ -487,16 +473,12 @@
 
 .join h1 {
     background: #ff1877;
-    background: -webkit-linear-gradient(
-        to right,
-        #9114ff,
-        #da22ff
-    );
-    background: linear-gradient(
-        to right,
-        #8f0eff,
-        #da22ff
-    );
+    background: -webkit-linear-gradient(to right,
+            #9114ff,
+            #da22ff);
+    background: linear-gradient(to right,
+            #8f0eff,
+            #da22ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -629,28 +611,22 @@
 
 .programs-card:nth-child(2) {
     background: #1fa2ff;
-    background: -webkit-linear-gradient(
-      to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
-    );
-    background: linear-gradient(
-      to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
-    );
+    background: -webkit-linear-gradient(to right,
+            #a6ffcb,
+            #12d8fa,
+            #1fa2ff);
+    background: linear-gradient(to right,
+            #a6ffcb,
+            #12d8fa,
+            #1fa2ff);
 }
 
 .programs-card:nth-child(3) {
-    background-image: linear-gradient(
-      -225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
-    );
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
 }
 
 .programs-card h2 {
@@ -705,6 +681,145 @@
 }
 
 
+/* Sign-Up Section */
+.sign-up {
+    background-color: #131313;
+    padding: 10rem 0;
+}
+
+.sign-up-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.sign-up-content {
+    color: #fff;
+    width: 100%;
+}
+
+.sign-up-content h1 {
+    font-size: 2rem;
+    background: #ff1877;
+    background: -webkit-linear-gradient(to right,
+            #9114ff,
+            #da22ff);
+    background: linear-gradient(to right,
+            #8f0eff,
+            #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.sign-up-content h2 {
+    font-size: 4rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to top, #f54798 0%, #eb1f55 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+}
+
+.sign-up-content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sign-up-img {
+    border-radius: 4px;
+}
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 1100px) {
+    .sign-up-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .sign-up-img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sign-up-img-card {
+        height: 425px;
+        width: 425px;
+    }
+
+    .sign-up-content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .sign-up-content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .sign-up-content h2 {
+        font-size: 3rem;
+    }
+
+    .sign-up-content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .sign-up-img-card {
+        width: 400px;
+        height: 400px;
+        margin-left: 55px;
+    }
+
+    .sign-up-img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .sign-up-img-card {
+        width: 250px;
+        height: 250px;
+        margin-left: 38px;
+    }
+
+    .sign-up-content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .sign-up-content h2 {
+        font-size: 2rem;
+    }
+
+    .sign-up-content p {
+        margin-top: 2rem;
+    }
+}
+
 /* Footer CSS */
 .footer-container {
     background-color: #131313;
@@ -717,16 +832,12 @@
 
 .website-rights {
     background: #ee0979;
-    background: -webkit-linear-gradient(
-        to right,
-        #ff6a00,
-        #ee0979
-    );
-    background: linear-gradient(
-        to right,
-        #ff6a00,
-        #ee0979
-    );
+    background: -webkit-linear-gradient(to right,
+            #ff6a00,
+            #ee0979);
+    background: linear-gradient(to right,
+            #ff6a00,
+            #ee0979);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
