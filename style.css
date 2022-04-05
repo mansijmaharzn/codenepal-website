@@ -734,16 +734,32 @@
     -moz-text-fill-colour: transparent;
 }
 
-.sign-up-content p {
-    margin-top: 1rem;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
 .sign-up-img {
     border-radius: 4px;
 }
 
+.newsletter-form {
+    margin-top: 40px;
+}
+
+.email-text {
+    font-size: 2rem;
+}
+
+.email-box {
+    margin: 1.5rem 0;
+    display: block;
+    width: 100%;
+    height: 3rem;
+    width: 25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+}
 
 /* Mobile Responsive */
 @media screen and (max-width: 1100px) {
@@ -781,11 +797,6 @@
         font-size: 3rem;
     }
 
-    .sign-up-content p {
-        margin-top: 1rem;
-        font-size: 1.5rem;
-    }
-
     .sign-up-img-card {
         width: 400px;
         height: 400px;
@@ -795,6 +806,12 @@
     .sign-up-img {
         max-width: 100%;
         max-height: 100%;
+    }
+
+    .email-box {
+        display: block;
+        width: 100%;
+        height: 3rem;
     }
 }
 
