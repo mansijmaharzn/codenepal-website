@@ -32,7 +32,7 @@ const highlightMenu = () => {
         homeMenu.classList.remove('highlight');
         programsMenu.classList.remove('highlight');
         return
-    } else if (window.innerWidth > 960 && scrollPosition < 2345) {
+    } else if (window.innerWidth > 960 && scrollPosition < 2380) {
         programsMenu.classList.add('highlight');
         aboutMenu.classList.remove('highlight');
         joinMenu.classList.remove('highlight');
