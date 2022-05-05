@@ -702,6 +702,14 @@
     .programs-wrapper {
         grid-template-columns: 1fr;
     }
+
+    .programs h1 {
+        font-size: 25px;
+    }
+
+    .programs h3 {
+        font-size: 27px;
+    }
 }
 
 
